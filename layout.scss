@@ -1,0 +1,22 @@
+@import "./responsive.scss";
+
+.layout{
+    background-color: #eef0f2;
+    margin: 0 auto;
+    
+
+    @include lg{
+       
+        //background-color: bisque;
+    }
+
+    @include md{
+        
+        //background-color: skyblue
+    }
+
+    @include sm{
+        
+        //background-color: aquamarine;
+    }
+}

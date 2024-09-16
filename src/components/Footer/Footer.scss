@@ -1,0 +1,188 @@
+@import "../responsive.scss";
+.footer{
+    
+    //#0f4c5c
+    background-color: #242f40;
+    color: #daddd8;
+
+    
+
+    .container{
+        max-width: 1300px;
+        margin: 0 auto; 
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .top{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 4rem 0;
+
+            .logo{
+                position: relative;
+
+
+                a{
+                    span{
+                        font-size: 1.7rem;
+                        font-weight: 600;
+                        color: #daddd8;
+                        letter-spacing: 0.2rem;
+                        text-transform: uppercase;
+                        cursor: pointer;
+
+
+                        @include md{
+                            font-size: 1.5rem;
+                        }
+
+                        @include sm{
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+                .logo-wrapper{
+                    position: absolute;
+                    top: -1.3rem;
+                    left: 12rem;
+                    @include md{
+                        left: 9rem;
+                    }
+
+                    @include sm{
+                        left: 7rem;
+                    }
+
+                    img{
+                        width: 60px;
+                        height: 60px;
+                        object-fit: contain;
+                        object-position: 0% 10%;
+                        zoom: 1.7;
+                        transform: rotateY(160deg);
+                        background-color: none;
+                    }
+                }
+            }
+
+            .msg{
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                letter-spacing: 0.2rem;
+                font-weight: 600;
+                
+                @include md{
+                    font-size: 1.5rem;
+                }
+
+                @include sm{
+                    display: none;
+                }
+            }
+        }
+
+        .middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6rem;
+            padding: 4rem 0;
+
+            .middleTop{
+                display: flex;
+                gap: 6rem;
+
+                @include sm{
+                    gap: 3rem;
+                    
+                }
+            }
+
+            .middleBottom{
+                display: flex;
+                gap: 6rem;
+
+                @include sm{
+                    gap: 3rem;
+                    
+                }
+            }
+
+            @include md{
+                flex-direction: column;
+                gap: 4 rem;
+            }
+
+            
+
+            .contact{
+                display: flex;
+                flex-direction: column;
+                gap: 0.3rem;
+
+                p:first-child{
+                    font-weight: 600;
+                    letter-spacing: 0.1rem;
+                }   
+
+            }
+
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+
+            @include md{
+                font-size: 0.85rem;
+            }
+
+            @include sm{
+                flex-direction: column;
+                align-items: center;
+                font-size: 1rem;
+                gap: 2rem;
+            }
+
+
+            a{
+                transition: all ease-in-out 200ms;
+                
+
+                &:hover{
+                    opacity: 0.5;
+                }
+
+            }
+            
+
+            .sm-icons{
+                display: flex;
+                gap: 1.5rem;
+                padding-right: 1rem;
+
+            }
+
+
+        }
+
+
+        @include lg{
+            max-width: 95%;
+        }
+
+        @include md{
+            max-width: 95%;
+            
+        }
+
+        @include sm{
+            max-width: 95%;
+        }
+    }
+}

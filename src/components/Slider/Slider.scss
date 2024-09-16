@@ -1,0 +1,335 @@
+@import "../responsive.scss";
+.slider{
+    max-width: 95%;
+    background-color: #eef0f2;
+    height: 50rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+ 
+    
+
+    .sliderWrapper{
+        height: 30rem;
+        position: relative;
+    
+    //overflow-x: hidden;
+
+    .imageContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        width: 100%;
+        height: 100%;
+        
+        
+        
+
+        img{
+            transition: all ease-in-out 5000ms;
+        }
+
+        .imageCenter{
+            height: 30rem;
+            width: 30rem;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: 15%;   
+                box-shadow: 1px 2px 10px 5px #625834;
+            }
+
+            @media(max-width: 1330px){
+                height: 90%;
+                width: 39%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: 15%;   
+                }
+            }
+
+            @media(max-width: 1250px){
+                height: 85%;
+                width: 39%;
+            }
+
+            @media(max-width: 1200px){
+                height: 80%;
+                width: 37%;
+            }
+
+            @media(max-width: 1180px){
+                height: 78%;
+                width: 36%;
+            }
+
+            @media (max-width: 1000px) {
+                height: 90%;
+                width: 50%;
+
+            }
+
+            @media (max-width: 800px) {
+                height: 80%;
+                width: 50%;
+            }
+
+            @media (max-width: 720px) {
+                height: 80%;
+                width: 60%;
+            }
+
+            @media (max-width: 720px) {
+                height: 80%;
+                width: 68%;
+            }
+
+            @media (max-width: 575px) {
+                height: 80%;
+                width: 90%;
+            }
+
+            @media (max-width: 550px) {
+                height: 80%;
+                width: 90%;
+            }
+
+            @media (max-width: 520px) {
+                height: 75%;
+                width: 100%;
+            }
+
+            @media (max-width: 480px) {
+                height: 60%;
+                width: 100%;
+            }
+
+            @media (max-width: 460px) {
+                height: 55%;
+                width: 100%;
+            }
+
+            @media (max-width: 430px) {
+                height: 50%;
+                width: 100%;
+            }
+
+            @media (max-width: 430px) {
+                height: 13rem;
+            }
+
+            @media (max-width: 390px) {
+                height: 11rem;
+            }
+
+            
+
+        }
+
+        .imageLeft{
+            height: 20rem;
+            width: 20rem;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+
+
+            @media(max-width: 1330px){
+                height: 60%;
+                width: 30%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%; 
+                }
+            }
+
+            @media(max-width: 1200px){
+                height: 55%;
+                width: 27%;
+            }
+
+            @media(max-width: 1125px){
+                height: 50%;
+                width: 25%;
+            }
+
+            @media(max-width: 1000px){
+                height: 0;
+                width: 0;
+            }
+           
+
+        }
+        .imageRight{
+            height: 20rem;
+            width: 20rem;
+
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                
+            }
+
+            @media(max-width: 1330px){
+                height: 60%;
+                width: 30%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%; 
+                }
+            }
+
+            @media(max-width: 1200px){
+                height: 55%;
+                width: 27%;
+            }
+
+            @media(max-width: 1125px){
+                height: 50%;
+                width: 25%;
+            }
+
+            @media(max-width: 1000px){
+                height: 0;
+                width: 0;
+            }
+           
+            
+        }
+    }
+
+    .leftBtn, .rightBtn{
+        background-color: white;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 10px 1px black;
+        //cursor: pointer;
+    }
+
+    .leftBtn{
+        position: absolute;
+        left: -1.5rem;
+        top: 50%;
+
+        @media (max-width: 550px) {
+            top: 40%;
+        }
+        
+
+        @include lg{
+            left: -1.2rem;
+        }
+
+        @include md{
+            left: -0.9rem;
+        }
+
+        @include sm{
+            left: -0.3rem;
+        }
+
+
+    }
+    .rightBtn{
+        position: absolute;
+        right: -1.5rem;
+        top: 50%;
+        
+        @media (max-width: 550px) {
+            top: 40%;
+        }
+
+        @include lg{
+            right: -1.2rem;
+        }
+
+        @include md{
+            right: -0.9rem;
+        }
+
+        @include sm{
+            right: -0.3rem;
+        }
+        
+        
+    }
+
+        @media (max-width: 550px) {
+            height: 20rem;
+        }
+    }
+    .aircraftDetails{
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: 0;
+        left: 0;
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        
+        a {
+
+            h2{
+                letter-spacing: 0.25rem;
+                transition: all ease-in-out 100ms;
+                font-weight: 600;
+                
+
+                &:hover{
+                    padding-bottom: 0.2rem;
+                    border-bottom: 2px solid #625834;
+                }
+            }
+        }
+
+        p{
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        @media (max-width: 550px){
+            margin-top: 0rem;
+
+            a{
+                h2{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+            }
+
+            p{
+                font-size: 0.9rem;
+                font-weight: 400;
+            }
+        }
+
+
+    }
+
+    @media (max-width: 1000px) {
+        margin-top: 1rem;
+    }
+
+    @media (max-width: 550px) {
+        margin-top: 1rem;
+        height: 33rem;
+        
+    }
+
+}

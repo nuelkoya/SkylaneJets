@@ -1,0 +1,156 @@
+@import "../responsive.scss";
+.contact{
+    
+
+    .imageContainer{
+        width: 100vw;
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("src/assets/contact-logo.png");
+        background-position: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .message{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+           
+            
+            p{
+                font-size: 4rem;  
+                color: white;
+                text-align: center;
+
+                @include sm{
+                    font-size: 2.5rem;
+                }
+                
+            }
+        }
+
+
+        @include lg{
+
+          img{
+              object-position: 70%;
+          }
+        }
+
+        @include sm{
+            height: 25rem;
+        }
+
+    }
+
+    .contactInfo{
+
+        display: flex;
+        justify-content: center;
+        padding: 3.5rem 0;
+        background-color: #eef0f2;
+
+        .wrapper{
+            
+            width: 1350px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2rem;
+
+            @include lg{
+                width: 90%;
+            }
+
+            @include sm{
+                flex-direction: column;
+                
+            }
+
+            p{
+                font-weight: 300;
+            }
+
+            .left{
+               
+                @include sm{
+                    margin-bottom: 2rem;
+                }
+    
+                h1{
+                    color: #0f4c5c;
+                    font-size: 2.5rem;
+                    padding-bottom: 1.5rem;
+                }
+    
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 2rem;
+    
+                    label{
+                        margin-bottom: 0.5rem;
+                    }
+    
+                    input{
+                        margin-bottom: 2rem;
+                        padding: 0.6rem 0.8rem;
+                        font-size: 1rem;
+                    }
+    
+                    textarea{
+                        height: 10rem;
+                        padding: 1rem 0.8rem;
+                        font-size: 1rem;
+                    }
+    
+                    button{
+                        width: max-content;
+                        background-color: #0f4c5c;
+                        border: none;
+                        padding: 0.7rem 1.4rem;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        color:#eef0f2;
+                        margin-top: 1.5rem;
+                        transition: all ease-in-out 200ms;
+                        cursor: pointer;
+    
+                        &:hover{
+                            color: #a59132;
+                        }
+                    }
+                }
+            }
+    
+            .right{
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                
+
+                h1{
+                    color: #0f4c5c;
+                    font-size: 2.5rem;
+                }
+
+                .details{
+
+                    h3{
+                        color: #0f4c5c;
+                        margin-bottom: 1.2rem;
+                    }
+                }
+    
+            }
+
+
+        }
+
+        
+    }
+}
