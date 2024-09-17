@@ -1,3 +1,4 @@
+import ffsd from './assets/featured_assests/2006learjet.png'
 
 export const featuredAircraft =[
     {
@@ -6,8 +7,8 @@ export const featuredAircraft =[
         name: '2006 LEARJET 45XR',
         seating: '9',
         airframe_hours: '3140.8',
-        image: './src/featured_assests/2006learjet.png',
-        image_interior: './src/assets/N74PT-0122.jpg'
+        image: './featured_assests/2006learjet.png',
+        image_interior: './assets/N74PT-0122.jpg'
     },
     {
         id: '2',
@@ -15,8 +16,8 @@ export const featuredAircraft =[
         name: '2018 GULFSTREAM G650ER',
         seating: '13',
         airframe_hours: '2229.9',
-        image: './src/featured_assests/2018Gulfstream.png',
-        image_interior: './src/assets/N2E-WebRes-3.png',
+        image: './featured_assests/2018Gulfstream.png',
+        image_interior: './assets/N2E-WebRes-3.png',
     },
     {
         id: '3',
@@ -24,8 +25,8 @@ export const featuredAircraft =[
         name: '2014 GULFSTREAM G650ER',
         seating: '14',
         airframe_hours: '4876.7',
-        image: './src/featured_assests/2014Gulfstream.png',
-        image_interior: './src/assets/jet-25.png',
+        image: './featured_assests/2014Gulfstream.png',
+        image_interior: './assets/jet-25.png',
     },
     {
         id: '4',
@@ -57,8 +58,8 @@ export const allAircraft =[
         name: '2006 LEARJET 45XR',
         seating: '9',
         airframe_hours: '3140.8',
-        image: './src/featured_assests/2006learjet.png',
-        image_interior: './src/assets/N74PT-0122.jpg'
+        image: ffsd,
+        image_interior: './assets/N74PT-0122.jpg'
     },
     {
         id: '2',
@@ -66,8 +67,8 @@ export const allAircraft =[
         name: '2018 GULFSTREAM G650ER',
         seating: '13',
         airframe_hours: '2229.9',
-        image: './src/featured_assests/2018Gulfstream.png',
-        image_interior: './src/assets/N2E-WebRes-3.png',
+        image: './featured_assests/2018Gulfstream.png',
+        image_interior: './assets/N2E-WebRes-3.png',
     },
     {
         id: '3',
