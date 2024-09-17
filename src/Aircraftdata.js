@@ -8,6 +8,14 @@ import bomb from './featured_assests/2006Bombardier.png'
 import bomb_int from './assets/32.png'
 import gs5 from './featured_assests/2005Gulfstream.png'
 import gs5_int from './assets/N885GM-WebRes-2.png'
+import gs99 from './assets/_7R41983 2.png'
+import gs99_int from './assets/_7R42028-1.png'
+import boe21 from './assets/Avjet-2021-Max-8-2-1224x695.jpg.webp'
+import boe21_int from './assets/Avjet-2021-Max-8-3-1224x695.jpg.webp'
+import boe10 from './assets/2010-BOEING-BUSINESS-JET-BG.png'
+import boe10_int from './assets/2010 BOEING BUSINESS JET_Interior Wide Angle 2.png'
+
+
 
 export const featuredAircraft =[
     {
@@ -113,8 +121,8 @@ export const allAircraft =[
         name: '1999 GULFSTREAM GV',
         seating: '17',
         airframe_hours: '11,900.8',
-        image: './src/assets/_7R41983 2.png',
-        image_interior: './src/assets/_7R42028-1.png',
+        image: gs99,
+        image_interior: gs99_int,
     },
 
     {
@@ -123,8 +131,8 @@ export const allAircraft =[
         name: '2021 BOEING BBJ MAX 8',
         seating: '17',
         airframe_hours: '672.0',
-        image: './src/assets/Avjet-2021-Max-8-2-1224x695.jpg.webp',
-        image_interior: './src/assets/Avjet-2021-Max-8-3-1224x695.jpg.webp',
+        image: boe21,
+        image_interior: boe21_int,
     },
 
     {
@@ -133,8 +141,8 @@ export const allAircraft =[
         name: '2010 BOEING BUSINESS JET',
         seating: '19',
         airframe_hours: '4183.3',
-        image: './src/assets/2010-BOEING-BUSINESS-JET-BG.png',
-        image_interior: './src/assets/2010 BOEING BUSINESS JET_Interior Wide Angle 2.png',
+        image: boe10,
+        image_interior: boe10_int,
     },
 
 ]

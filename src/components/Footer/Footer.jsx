@@ -96,16 +96,16 @@ const Footer = () => {
                 <div className="sm-icons">
                     <p>Follow us</p>
                     <hr></hr>
-                    <a href="#">
+                    <a target="_blank" href="https://www.instagram.com/">
                         <FaInstagram />
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.facebook.com/">
                         <TbBrandFacebook />
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.twitter.com/">
                         <FaXTwitter />
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.linkedin.com/">
                         <SlSocialLinkedin />
                     </a>
                 </div>
