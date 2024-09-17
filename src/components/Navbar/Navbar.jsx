@@ -16,7 +16,7 @@ const Navbar = () => {
             </a>
             <div className='logo-wrapper'>
                 <a to="/">
-                    <img src="src/assets/aircraft.png" alt="" />
+                    <img src="../../assets/aircraft.png" alt="" />
                 </a>
             </div>
             
