@@ -6,7 +6,10 @@ import { NavLink, Link } from 'react-router-dom'
 import { BsFillAirplaneFill } from "react-icons/bs";
 import { SiGoogleearthengine } from "react-icons/si";
 import { BsAirplaneEngines } from "react-icons/bs";
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer';
+import image1 from '../../assets/Inside-of-Aircraft-cabin.webp';
+import image2 from '../../assets/Technician-inspecting-aircraft.webp';
+import image3 from '../../assets/Close-up-to-aircraft-part.webp.webp';
 
 
 
@@ -252,7 +255,7 @@ const AircraftPage = () => {
                     <h1>Maintenance & Avionics</h1>
 
                     <div className="card">
-                        <img src="src/assets/Inside-of-Aircraft-cabin.webp" alt="" />
+                        <img src={image1} alt="" />
                         <div>
                             <h3>Avionics</h3>
                             <ul>
@@ -262,7 +265,7 @@ const AircraftPage = () => {
                     </div>
 
                     <div className="card">
-                        <img src="src/assets/Technician-inspecting-aircraft.webp" alt="" />
+                        <img src={image2} alt="" />
                         <div>
                             <h3>MAJOR INSPECTION STATUS</h3>
                             <ul>
@@ -276,7 +279,7 @@ const AircraftPage = () => {
                     </div>
 
                     <div className="card">
-                        <img src="src/assets/Close-up-to-aircraft-part.webp" alt="" />
+                        <img src={image3} alt="" />
                         <div>
                             <h3>ADDITIONAL EQUIPMENT AND FEATURES</h3>
                             <ul>
