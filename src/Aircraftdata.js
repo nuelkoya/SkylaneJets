@@ -6,8 +6,8 @@ import gs14 from './featured_assests/2014Gulfstream.png'
 import gs14_int from './assets/jet-25.png'
 import bomb from './featured_assests/2006Bombardier.png'
 import bomb_int from './assets/32.png'
-import gs5 from '/featured_assests/2005Gulfstream.png'
-import gs5_int from '/assets/N885GM-WebRes-2.png'
+import gs5 from './featured_assests/2005Gulfstream.png'
+import gs5_int from './assets/N885GM-WebRes-2.png'
 
 export const featuredAircraft =[
     {
