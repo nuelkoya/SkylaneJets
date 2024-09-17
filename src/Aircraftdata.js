@@ -1,4 +1,4 @@
-import ffsd from './assets/featured_assests/2006learjet.png'
+import ffsd from './featured_assests/2006learjet.png'
 
 export const featuredAircraft =[
     {
