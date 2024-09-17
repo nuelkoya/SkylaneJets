@@ -59,7 +59,7 @@ export const allAircraft =[
         seating: '9',
         airframe_hours: '3140.8',
         image: ffsd,
-        image_interior: './assets/N74PT-0122.jpg'
+        image_interior: 'assets/N74PT-0122.jpg'
     },
     {
         id: '2',
@@ -67,8 +67,8 @@ export const allAircraft =[
         name: '2018 GULFSTREAM G650ER',
         seating: '13',
         airframe_hours: '2229.9',
-        image: './featured_assests/2018Gulfstream.png',
-        image_interior: './assets/N2E-WebRes-3.png',
+        image: 'featured_assests/2018Gulfstream.png',
+        image_interior: '/assets/N2E-WebRes-3.png',
     },
     {
         id: '3',
