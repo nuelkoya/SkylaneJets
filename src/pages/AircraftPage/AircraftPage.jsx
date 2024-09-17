@@ -9,7 +9,7 @@ import { BsAirplaneEngines } from "react-icons/bs";
 import Footer from '../../components/Footer/Footer';
 import image1 from '../../assets/Inside-of-Aircraft-cabin.webp';
 import image2 from '../../assets/Technician-inspecting-aircraft.webp';
-import image3 from '../../assets/Close-up-to-aircraft-part.webp.webp';
+import image3 from '../../assets/Close-up-to-aircraft-part.webp';
 
 
 
