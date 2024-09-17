@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { TbBrandFacebook } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { SlSocialLinkedin } from "react-icons/sl";
-
+import logo from "../../assets/aircraft.png";
 
 
 
@@ -39,7 +39,7 @@ const Footer = () => {
                     </a>
                     <div className='logo-wrapper' >
                         <a onClick={() => setScrollUp(true)}>
-                            <img src="/assets/aircraft.png" alt="" />
+                            <img src={logo} alt="" />
                         </a>
                     </div>
                 </div>
