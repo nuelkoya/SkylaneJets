@@ -39,7 +39,7 @@ const Footer = () => {
                     </a>
                     <div className='logo-wrapper' >
                         <a onClick={() => setScrollUp(true)}>
-                            <img src="src/assets/aircraft.png" alt="" />
+                            <img src="/assets/aircraft.png" alt="" />
                         </a>
                     </div>
                 </div>
