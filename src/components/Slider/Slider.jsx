@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Slider.scss"
-import { featuredAircraft } from '../../../Aircraftdata'
+import { featuredAircraft } from '../../Aircraftdata'
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-router-dom';

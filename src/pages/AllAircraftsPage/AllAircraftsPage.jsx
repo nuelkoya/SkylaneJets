@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./AllAircraftsPage.scss"
 import Card from "../../components/Card/Card"
-import { allAircraft } from '../../../Aircraftdata'
+import { allAircraft } from '../../Aircraftdata'
 import Footer from '../../components/Footer/Footer'
 
 

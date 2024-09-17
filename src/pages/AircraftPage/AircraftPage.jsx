@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useParams } from 'react-router'
 import "./AircraftPage.scss"
-import { allAircraft } from "../../../Aircraftdata"
+import { allAircraft } from "../../Aircraftdata"
 import { NavLink, Link } from 'react-router-dom'
 import { BsFillAirplaneFill } from "react-icons/bs";
 import { SiGoogleearthengine } from "react-icons/si";
