@@ -3,6 +3,7 @@ import "./Navbar.scss"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { Link,NavLink } from 'react-router-dom';
+import logo from "../../assets/aircraft.png";
 
 
 
@@ -16,7 +17,7 @@ const Navbar = () => {
             </a>
             <div className='logo-wrapper'>
                 <a to="/">
-                    <img src="../../assets/aircraft.png" alt="" />
+                    <img src={logo} alt="" />
                 </a>
             </div>
             
